@@ -276,4 +276,28 @@ var bidderPatterns = {
   'Prebid Server': [
     'prebid.adnxs.com/pbs/v1/auction'
   ],
+  'ImproveDigital': [
+    'ad.360yield.com/hb'
+  ],
+  'AerServ': [
+    '.aerserv.com/as'
+  ],
+  'Adxcg': [
+    '.adxcg.net/get/adi'
+  ],
+  'Yieldmo': [
+    'bid.yieldmo.com/exchange/prebid'
+  ],
+  'Tremor': [
+    '.ads.tremorhub.com/ad/tag'
+  ],
+  'Orbitsoft': [
+    'adserver.com/ads/show/hb'
+  ],
+  'Kumma': [
+    'hb.kumma.com/'
+  ],
+  'Trustx': [
+    'sofia.trustx.org/hb'
+  ],
 };
