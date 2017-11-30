@@ -300,4 +300,41 @@ var bidderPatterns = {
   'Trustx': [
     'sofia.trustx.org/hb'
   ],
+  'Realvu': [
+    'ac.realvu.net/realvu_boost.js'
+  ],
+  'NanoInteractive': [
+    'tmp.audiencemanager.de/hb'
+  ],
+  'AdOcean': [
+    'myao.adocean.pl/ad.json'
+  ],
+  'Ad4Game': [
+    'ads.ad4game.com/v1/bid'
+  ],
+  'AdKernelAdn': [
+    'tag.adkernel.com',
+    'dsp-staging.adkernel.com'
+  ],
+  '33Across': [
+    'ssc.33across.com/api/v1/hb'
+  ],
+  'Bridgewell': [
+    'rec.scupio.com/recweb/prebid.aspx'
+  ],
+  'SomoAudience': [
+    'publisher-east.mobileadtrading.com/rtb/bid?s='
+  ],
+  'Optimatic': [
+    'mg-bid.optimatic.com/adrequest/'
+  ],
+  'Rtbdemand': [
+    'bidding.rtbdemand.com/hb'
+  ],
+  'Arteebee': [
+    'bidder.mamrtb.com/rtb/bid/arteebee?type=json&register=0'
+  ],
+  'Undertone': [
+    'hb.undertone.com/hb'
+  ],
 };
