@@ -10,7 +10,8 @@ var bidderPatterns = {
   ],
   'Pubmatic': [
     '.pubmatic.com/AdServer/AdCallAggregator',
-    '.pubmatic.com/AdServer/AdServerServlet'
+    '.pubmatic.com/AdServer/AdServerServlet',
+    '.pubmatic.com/translator'
   ],
   'Rubicon': [
     '.rubiconproject.com/a/api/fastlane.json',
