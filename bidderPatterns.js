@@ -315,8 +315,8 @@ var bidderPatterns = {
     'ads.ad4game.com/v1/bid'
   ],
   'AdKernelAdn': [
-    'tag.adkernel.com',
-    'dsp-staging.adkernel.com'
+    'tag.adkernel.com/',
+    'dsp-staging.adkernel.com/'
   ],
   '33Across': [
     'ssc.33across.com/api/v1/hb'
