@@ -5,7 +5,8 @@ var bidderPatterns = {
   ],
   'Openx': [
     '.servedbyopenx.com/w/1.0/acj',
-    '.openx.net/w/1.0/acj'
+    '.openx.net/w/1.0/acj',
+    '.openx.net/w/1.0/arj'
   ],
   'Pubmatic': [
     '.pubmatic.com/AdServer/AdCallAggregator',
