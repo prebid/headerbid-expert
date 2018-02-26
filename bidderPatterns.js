@@ -339,4 +339,7 @@ var bidderPatterns = {
   'Undertone': [
     'hb.undertone.com/hb'
   ],
+  'RTBHouse': [
+    'creativecdn.com/bidder/prebid/bids'
+  ],
 };
