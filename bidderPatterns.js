@@ -74,8 +74,8 @@ var bidderPatterns = {
   'Mantis': [
     'mantodea.mantisadnetwork.com/'
   ],
-  'SmartRTB+': [
-    'prg.smartadserver.com/prebid'
+  'Smart': [
+    '.smartadserver.com/prebid'
   ],
   'RhythmOne': [
     'tag.1rx.io/rmp/*/*/mvo'
