@@ -350,10 +350,10 @@ var bidderPatterns = {
     'ads.stickyadstv.com/www/delivery/swfIndex.php'
   ],
   'IQM': [
-    'pbd.bids.iqm.com'
+    'pbd.bids.iqm.com/'
   ],
   'Rxrtb': [
-    'bid.rxrtb.bid'
+    'bid.rxrtb.bid/'
   ],
   'ServerBid Server': [
     'e.serverbid.com/api/v2'
@@ -362,7 +362,7 @@ var bidderPatterns = {
     'gjc.gjirafa.com/Home/GetBid'
   ],
   'Nasmedia Admixer': [
-    'adn.admixer.co.kr:10443/prebid'
+    'adn.admixer.co.kr/prebid'
   ],
   'Media.net': [
     'prebid.media.net/rtb/prebid'
@@ -383,10 +383,10 @@ var bidderPatterns = {
     'tas.rockyou.net/servlet/rotator/'
   ],
   'Vidazoo': [
-    'prebid.cliipa.com'
+    'prebid.cliipa.com/'
   ],
   'Yieldlab': [
-    'ad.yieldlab.net'
+    'ad.yieldlab.net/'
   ],
   'Adgeneration': [
     'd.socdm.com/adsv/v1',
@@ -396,7 +396,7 @@ var bidderPatterns = {
     'ads.danmarketplace.com/hb'
   ],
   'Xendiz': [
-    'prebid.xendiz.com'
+    'prebid.xendiz.com/'
   ],
   'Peak226': [
     'a.ad216.com/header_bid'
@@ -405,6 +405,6 @@ var bidderPatterns = {
     'pixel.adsafeprotected.com/services/pub'
   ],
   'Gamma SSP': [
-    'hb.gammaplatform.com'
+    'hb.gammaplatform.com/'
   ]
 };
