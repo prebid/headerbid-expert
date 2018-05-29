@@ -340,8 +340,8 @@ var bidderPatterns = {
   'Undertone': [
     'hb.undertone.com/hb'
   ],
-  'RTBHouse': [
-    'creativecdn.com/bidder/prebid/bids'
+  'RTB House': [
+    '.creativecdn.com/bidder/prebid/bids'
   ],
   'Readpeak': [
     'app.readpeak.com/header/prebid'
