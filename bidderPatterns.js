@@ -310,7 +310,7 @@ var bidderPatterns = {
     'tmp.audiencemanager.de/hb'
   ],
   'AdOcean': [
-    'myao.adocean.pl/ad.json'
+    '.adocean.pl/ad.json'
   ],
   'Ad4Game': [
     'ads.ad4game.com/v1/bid'
