@@ -409,5 +409,8 @@ var bidderPatterns = {
   ],
   'Gamma SSP': [
     'hb.gammaplatform.com/'
+  ],
+  'E-Planning': [
+    'ads.us.e-planning.net/hb'
   ]
 };
