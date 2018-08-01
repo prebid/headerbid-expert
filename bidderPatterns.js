@@ -84,7 +84,8 @@ var bidderPatterns = {
     '.doubleclick.net/gampad/ads'
   ],
   'Aardvark': [
-    'thor.rtk.io/*/*/aardvark'
+    'thor.rtk.io/*/*/aardvark',
+    'bidder.rtk.io'
   ],
   'Adblade': [
     'rtb.adblade.com/prebidjs/bid'
@@ -412,5 +413,118 @@ var bidderPatterns = {
   ],
   'E-Planning': [
     'ads.us.e-planning.net/hb'
+  ],
+  'Quantum': [
+    's.sspqns.com/hb'
+  ],
+  'FairTrade': [
+    'pool.fair-trademedia.com/hb'
+  ],
+  'Vuble': [
+    'player.mediabong.net/prebid/request'
+  ],
+  'Invibes': [
+    'bid.videostep.com/Bid/VideoAdContent'
+  ],
+  'Content Ignite': [
+    'serve.connectignite.com/adserve'
+  ],
+  'Oneplanetonly': [
+    'show.oneplanetonly.com/prebid'
+  ],
+  'Adtelligent': [
+    'hb.adtelligent.com/auction/'
+  ],
+  'EngageBDR': [
+    'dsp.bnmla.com/hb'
+  ],
+  'Clickforce': [
+    'ad.doublemax.net/adserver/prebid.json'
+  ],
+  'Madvertise': [
+    'mobile.mng-ads.com/'
+  ],
+  'LKQD': [
+    'ssp.lkqd.net/ad'
+  ],
+  'SARA': [
+    'ad.sara.media/hb'
+  ],
+  'RTBdemandADK': [
+    'cpm.metaadserving.com'
+  ],
+  'VIS.X': [
+    't.visx.net/hb'
+  ],
+  'Unruly': [
+    'targeting.unrulymedia.com/prebid'
+  ],
+  'DigitalGarageAds': [
+    'ads-tr.bigmining.com/ad/p/bid'
+  ],
+  'Consumable': [
+    'adserver-us.adtech.advertising.com'
+  ],
+  'AdMatic': [
+    'ads4.admatic.com.tr/prebid/v3/bidrequest'
+  ],
+  'OneTag': [
+    'onetag-sys.com/prebid-request'
+  ],
+  'Brainy': [
+    'proparm.co.jp/ssp/p/pbjs'
+  ],
+  'GXOne': [
+    'ads.gx1as.com/hb'
+  ],
+  'Clickonometrics': [
+    'delivery.clickonometrics.pl/ortb/prebid/bid'
+  ],
+  'Gamoshi Gambid': [
+    'rtb.gambid.io/r/*/bidr'
+  ],
+  'Papyrus': [
+    'prebid.papyrus.global'
+  ],
+  'Andbeyond': [
+    'cpm.metaadserving.com'
+  ],
+  'AdSpirit': [
+    'n1test.adspirit.de/rtb/getbid.php',
+    'connected-by.connectad.io/rtb/getbid.php',
+    'dsp.xapads.com/rtb/getbid.php'
+  ],
+  'PlaygroundXYZ': [
+    'ads.playground.xyz/host-config/prebid'
+  ],
+  'Fyber': [
+    'ad-tag.inner-active.mobi/simpleM2M/requestJsonAd'
+  ],
+  'Polymorph': [
+    'api.adsnative.com/v1/ad-template.json'
+  ],
+  'TripleLift': [
+    'tlx.3lift.com/header/auction'
+  ],
+  'DistrictmDMX': [
+    'dmx.districtm.io/b/v1'
+  ],
+  'My6Sense': [
+    'papi.mynativeplatform.com/pub2/web/v1.15.0/hbwidget.json'
+  ],
+  'Sortable': [
+    'c.deployads.com/openrtb2/auction'
+  ],
+  'AdUpTech': [
+    'rtb.d.adup-tech.com/prebid'
+  ],
+  'UOL': [
+    'prebid.adilligo.com/v1/prebid.json'
+  ],
+  'Zedo': [
+   'z2.zedo.com/asw/fmb.json' 
+  ],
+  'InteractiveOffers': [
+    'connect.interactiveoffers.com/api/endpoint.php'
   ]
 };
