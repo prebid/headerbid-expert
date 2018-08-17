@@ -85,7 +85,7 @@ var bidderPatterns = {
   ],
   'Aardvark': [
     'thor.rtk.io/*/*/aardvark',
-    'bidder.rtk.io'
+    'bidder.rtk.io/'
   ],
   'Adblade': [
     'rtb.adblade.com/prebidjs/bid'
