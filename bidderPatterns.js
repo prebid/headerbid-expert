@@ -451,19 +451,16 @@ var bidderPatterns = {
     'ad.sara.media/hb'
   ],
   'RTBdemandADK': [
-    'cpm.metaadserving.com'
+    'cpm.metaadserving.com/'
   ],
   'VIS.X': [
     't.visx.net/hb'
-  ],
-  'Unruly': [
-    'targeting.unrulymedia.com/prebid'
   ],
   'DigitalGarageAds': [
     'ads-tr.bigmining.com/ad/p/bid'
   ],
   'Consumable': [
-    'adserver-us.adtech.advertising.com'
+    'adserver-us.adtech.advertising.com/'
   ],
   'AdMatic': [
     'ads4.admatic.com.tr/prebid/v3/bidrequest'
@@ -484,10 +481,10 @@ var bidderPatterns = {
     'rtb.gambid.io/r/*/bidr'
   ],
   'Papyrus': [
-    'prebid.papyrus.global'
+    'prebid.papyrus.global/'
   ],
   'Andbeyond': [
-    'cpm.metaadserving.com'
+    'cpm.metaadserving.com/'
   ],
   'AdSpirit': [
     'n1test.adspirit.de/rtb/getbid.php',
@@ -502,9 +499,6 @@ var bidderPatterns = {
   ],
   'Polymorph': [
     'api.adsnative.com/v1/ad-template.json'
-  ],
-  'TripleLift': [
-    'tlx.3lift.com/header/auction'
   ],
   'DistrictmDMX': [
     'dmx.districtm.io/b/v1'
@@ -522,7 +516,7 @@ var bidderPatterns = {
     'prebid.adilligo.com/v1/prebid.json'
   ],
   'Zedo': [
-   'z2.zedo.com/asw/fmb.json' 
+   'z2.zedo.com/asw/fmb.json'
   ],
   'InteractiveOffers': [
     'connect.interactiveoffers.com/api/endpoint.php'
