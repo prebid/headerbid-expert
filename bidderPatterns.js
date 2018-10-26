@@ -22,7 +22,7 @@ var bidderPatterns = {
     'bidder.criteo.com/'
   ],
   'Conversant': [
-    'media.msg.dotomi.com/s2s/header'
+    'web.hb.ad.cpe.dotomi.com/s2s/header'
   ],
   'Amazon': [
     '.amazon-adsystem.com/e/dtb/bid'
