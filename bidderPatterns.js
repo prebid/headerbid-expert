@@ -522,5 +522,8 @@ var bidderPatterns = {
   ],
   'InteractiveOffers': [
     'connect.interactiveoffers.com/api/endpoint.php'
+  ],
+  'AJA': [
+    'ad.as.amanad.adtdp.com/v2/prebid'
   ]
 };
