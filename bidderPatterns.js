@@ -377,7 +377,7 @@ var bidderPatterns = {
     'tag.1rx.io/rmp/*/*/mvo'
   ],
   'Rich Audience': [
-    'shb.richaudience.com'
+    'shb.richaudience.com/'
   ],
   'RockYou': [
     'tas.rockyou.net/servlet/rotator/'
