@@ -512,7 +512,7 @@ var bidderPatterns = {
     '.yldbt.com/m/'
   ],
   'Yieldlab': [
-    'ad.yieldlab.net/'
+    'ad.yieldlab.net/yp/'
   ],
   'Yieldmo': [
     'bid.yieldmo.com/exchange/prebid'
