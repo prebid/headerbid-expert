@@ -139,7 +139,7 @@ var bidderPatterns = {
     'rec.scupio.com/recweb/prebid.aspx'
   ],
   'Brightcom': [
-    'hb.iselephant.com/auc/ortb'
+    'brightcombid.marphezis.com/hb'
   ],
   'C1X': [
     'ht-integration.c1exchange.com/ht',
@@ -472,8 +472,8 @@ var bidderPatterns = {
   'RhythmOne': [
     'tag.1rx.io/rmp/*/*/mvo'
   ],
-  'RichAudience': [
-    'shb.richaudience.com/hb/'
+  'Rich Audience': [
+    'shb.richaudience.com/'
   ],
   'RockYou': [
     'tas.rockyou.net/servlet/rotator/'
@@ -647,7 +647,7 @@ var bidderPatterns = {
     '.yldbt.com/m/'
   ],
   'Yieldlab': [
-    'ad.yieldlab.net/'
+    'ad.yieldlab.net/yp/'
   ],
   'Yieldmo': [
     'bid.yieldmo.com/exchange/prebid'
