@@ -112,7 +112,7 @@ var bidderPatterns = {
     'rec.scupio.com/recweb/prebid.aspx'
   ],
   'Brightcom': [
-    'hb.iselephant.com/auc/ortb'
+    'brightcombid.marphezis.com/hb'
   ],
   'C1X': [
     'ht-integration.c1exchange.com/ht',
