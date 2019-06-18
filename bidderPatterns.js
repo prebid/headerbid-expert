@@ -220,7 +220,7 @@ var bidderPatterns = {
     'prebid.emoteev.io/api/prebid/bid'
   ],
   'Emx Digital': [
-    'hb.emxdgt.com'
+    'hb.emxdgt.com/'
   ],
   'EngageBDR': [
     'dsp.bnmla.com/hb'
@@ -522,7 +522,7 @@ var bidderPatterns = {
     'ssp-nj.webtradehub.com/?'
   ],
   'SmileWanted': [
-    'prebid.smilewanted.com'
+    'prebid.smilewanted.com/'
   ],
   'SomoAudience': [
     'publisher-east.mobileadtrading.com/rtb/bid?s='
@@ -626,7 +626,7 @@ var bidderPatterns = {
     't.visx.net/hb'
   ],
   'VMG': [
-    'predict.vmg.nyc'
+    'predict.vmg.nyc/'
   ],
   'Vuble': [
     'player.mediabong.net/prebid/request'
