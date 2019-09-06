@@ -283,7 +283,7 @@ var bidderPatterns = {
     'b.imonomy.com/openrtb/hb'
   ],
   'ImproveDigital': [
-    'ad.360yield.com/hb'
+    'ice.360yield.com/hb'
   ],
   'Index': [
     '.casalemedia.com/cygnus',
