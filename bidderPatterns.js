@@ -190,7 +190,7 @@ var bidderPatterns = {
   ],
   'Criteo': [
     '.criteo.com/delivery/rta/rta.js',
-    'bidder.criteo.com/'
+    'bidder.criteo.com/cdb'
   ],
   'DecenterAds': [
     'supply.decenterads.com/'
