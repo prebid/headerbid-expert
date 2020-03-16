@@ -163,6 +163,9 @@ var bidderPatterns = {
   'Clickonometrics': [
     'delivery.clickonometrics.pl/ortb/prebid/bid'
   ],
+  'Clicktripz': [
+    'www.clicktripz.com/x/prebid'
+  ],
   'Coinzilla': [
     'request.czilladx.com/serve/request.php'
   ],
