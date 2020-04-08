@@ -610,6 +610,9 @@ var bidderPatterns = {
   'UOL': [
     'prebid.adilligo.com/v1/prebid.json'
   ],
+  'VDO.AI': [
+    'prebid.vdo.ai/auction'
+  ],
   'Vertamedia': [
     'rtb.vertamedia.com/hb'
   ],
