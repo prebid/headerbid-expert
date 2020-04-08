@@ -1,10 +1,19 @@
 var bidderPatterns = {
+  '1ad4good': [
+    'hb.1ad4good.org/prebid'
+  ],
   '33Across': [
     'ssc.33across.com/api/v1/hb'
+  ],
+  '7xbid': [
+    'bidder.7xbid.com/api/v1/prebid'
   ],
   'Aardvark': [
     'thor.rtk.io/*/*/aardvark',
     'bidder.rtk.io/'
+  ],
+  'Ablida': [
+    'bidder.ablida.net/prebid'
   ],
   'Ad4Game': [
     '.ad4game.com/v1/bid'
@@ -22,12 +31,18 @@ var bidderPatterns = {
   'Adequant': [
     'rex.adequant.com/rex/c2s_prebid?'
   ],
+  'Adfinity': [
+    'stat.adfinity.pro/'
+  ],
   'Adform': [
     'adx.adform.net/adx/?rp=4'
   ],
   'Adgeneration': [
     'd.socdm.com/adsv/v1',
     'api-test.scaleout.jp/adsv/v1'
+  ],
+  'AdGlare': [
+    '.engine.adglare.net'
   ],
   'Adhese': [
     '.adhese.com/json'
@@ -54,8 +69,14 @@ var bidderPatterns = {
   'Admixer': [
     'inv-nets.admixer.net/prebid.aspx'
   ],
+  'Adnuntis': [
+    'delivery.adnuntius.com/i'
+  ],
   'AdOcean': [
     '.adocean.pl/ad.json'
+  ],
+  'Adot': [
+    'dsp.adotmob.com/headerbidding/bidrequest'
   ],
   'Adpone': [
     'rtb.adpone.com/bid-request'
@@ -79,6 +100,9 @@ var bidderPatterns = {
   ],
   'Advenue': [
     'ssp.advenuemedia.co.uk/'
+  ],
+  'Advertly': [
+    'api.advertly.com/www/admin/plugins/Prebid/getAd.php'
   ],
   'Adxcg': [
     '.adxcg.net/get/adi'
@@ -117,11 +141,20 @@ var bidderPatterns = {
   'Arteebee': [
     'bidder.mamrtb.com/rtb/bid/arteebee?type=json&register=0'
   ],
+  'Astraone': [
+    'ssp.astraone.io/auction/prebid'
+  ],
   'Atomx': [
     'p.ato.mx/placement'
   ],
+  'AudienceRun': [
+    'd.audiencerun.com/prebid'
+  ],
   'AudienceS': [
     '.revsci.net/pql'
+  ],
+  'Automatad': [
+    'rtb2.automatad.com/ortb2'
   ],
   'Beachfront': [
     'reachms.bfmio.com/bid.json?exchange_id='
@@ -129,8 +162,14 @@ var bidderPatterns = {
   'Bidfluence': [
     'bidfluence.azureedge.net/forge.js'
   ],
+  'Bidlab': [
+    'service.bidlab.ai/'
+  ],
   'Bidphysics': [
     'exchange.bidphysics.com/auction'
+  ],
+  'Bid Glass': [
+    'bid.glass/ad/hb.php'
   ],
   'Brainy': [
     'proparm.co.jp/ssp/p/pbjs'
@@ -141,12 +180,24 @@ var bidderPatterns = {
   'Brightcom': [
     'brightcombid.marphezis.com/hb'
   ],
+  'Bucksense': [
+    'prebid.bksn.se/prebidjs'
+  ],
+  'Buzzoola': [
+    'exchange.buzzoola.com/ssp/prebidjs'
+  ],
+  'ByPlay': [
+    'prebid.byplay.net/bidder'
+  ],
   'C1X': [
     'ht-integration.c1exchange.com/ht',
     'ht.c1exchange.com/ht'
   ],
   'Carambola': [
     'hb.carambo.la/hb'
+  ],
+  'CCX': [
+    'delivery.clickonometrics.pl/ortb/prebid/bid'
   ],
   'Cedato': [
     'h.cedatoplayer.com/hb'
@@ -184,19 +235,38 @@ var bidderPatterns = {
   'Content Ignite': [
     'serve.connectignite.com/adserve'
   ],
+  'Converge': [
+    'tech.convergd.com/hb'
+  ],
   'Conversant': [
     'web.hb.ad.cpe.dotomi.com/s2s/header',
     'media.msg.dotomi.com/s2s/header'
   ],
+  'Cosmos': [
+    'bid.cosmoshq.com/openrtb2/bids'
+  ],
   'Cox': [
     'ad.afy11.net/ad'
+  ],
+  'CPMStar': [
+    'server.cpmstar.com/view.aspx'
   ],
   'Criteo': [
     '.criteo.com/delivery/rta/rta.js',
     'bidder.criteo.com/cdb'
   ],
+  'Dailyhunt': [
+    'money.dailyhunt.in/openx/ads/index.php',
+    'money.dailyhunt.in/openrtb2/auction'
+  ],
+  'Datablocks': [
+    'prebid.datablocks.net/'
+  ],
   'DecenterAds': [
     'supply.decenterads.com/'
+  ],
+  'DeepIntent': [
+    'prebid.deepintent.com/prebid'
   ],
   'Dentsu Aegis Network Marketplace': [
     'ads.danmarketplace.com/hb'
@@ -213,11 +283,17 @@ var bidderPatterns = {
   'DistrictmDMX': [
     'dmx.districtm.io/b/v1'
   ],
+  'DJAX': [
+    'demo.reviveadservermod.com/headerbidding_adminshare'
+  ],
   'Dspx': [
     'buyer.dspx.tv/request/'
   ],
   'E-Planning': [
     'ads.us.e-planning.net/hb'
+  ],
+  'E-volution Tech': [
+    'service.e-volution.ai/'
   ],
   'Emoteev': [
     'prebid.emoteev.io/api/prebid/bid'
@@ -228,11 +304,17 @@ var bidderPatterns = {
   'EngageBDR': [
     'dsp.bnmla.com/hb'
   ],
+  'Envivo': [
+    'ad.nvivo.tv/ads/www/admin/plugins/Prebid/getAd.php'
+  ],
   'EPlanning': [
     '.e-planning.net/layers/t_pbjs_'
   ],
   'Essens': [
     'bid.essrtb.com/bid/prebid_call'
+  ],
+  'Eywamedia': [
+    'adtarbostg.eywamedia.com/auctions/prebidjs'
   ],
   'Facebook': [
     'an.facebook.com/v2/placementbid.json'
@@ -243,8 +325,14 @@ var bidderPatterns = {
   'FeatureForward': [
     'prmbdr.featureforward.com/newbidder/bidder1_prm.php?'
   ],
+  'FeedAd': [
+    'api.feedad.com/1/prebid/web/bids'
+  ],
   'Fidelity': [
     'x.fidelity-media.com/delivery/hb.php?'
+  ],
+  'Fluct': [
+    'hb.adingo.jp/prebid'
   ],
   'FreeWheel': [
     'ads.stickyadstv.com/www/delivery/swfIndex.php'
@@ -267,6 +355,9 @@ var bidderPatterns = {
   'Gjirafa': [
     'gjc.gjirafa.com/Home/GetBid'
   ],
+  'GridNM': [
+    'grid.bidswitch.net/hbnm'
+  ],
   'GumGum': [
     'g2.gumgum.com/hbid/imp'
   ],
@@ -276,8 +367,14 @@ var bidderPatterns = {
   'HIRO Media': [
     'hb-rtb.ktdpublishers.com/bid/get'
   ],
+  'HPMD': [
+    'banner.hpmdnetwork.ru/bidder/request'
+  ],
   'HuddledMasses': [
     'huddledmassessupply.com/?banner_id='
+  ],
+  'Hybrid.ai': [
+    'hbe198.hybrid.ai/prebidhb'
   ],
   'IAS': [
     'pixel.adsafeprotected.com/services/pub'
@@ -338,6 +435,9 @@ var bidderPatterns = {
   'Mgid': [
     'dsp.mgid.com/prebid/'
   ],
+  'Lemma': [
+    'ads.lemmatechnologies.com/lemma/servad'
+  ],
   'Lifestreet': [
     'ads.lfstmedia.com/getad?'
   ],
@@ -347,11 +447,23 @@ var bidderPatterns = {
   'LKQD': [
     'ssp.lkqd.net/ad'
   ],
+  'Logicad': [
+    'pb.ladsp.com/adrequest/prebid'
+  ],
   'Madvertise': [
     'mobile.mng-ads.com/'
   ],
+  'Mars Media': [
+    'bid306.rtbsrv.com/bidder'
+  ],
+  'Meazy': [
+    'rtb-filter.meazy.co/pbjs'
+  ],
   'Media.net': [
     'prebid.media.net/rtb/prebid'
+  ],
+  'Mediaforce': [
+    'rtb.mfadsrvr.com/header_bid'
   ],
   'Meme Global': [
     'stinger.memeglobal.com/api/v1/services/prebid'
@@ -362,11 +474,17 @@ var bidderPatterns = {
   'MobFox': [
     'my.mobfox.com/request.php'
   ],
+  'Mobsmart': [
+    'prebid.mobsmart.net/prebid/endpoint'
+  ],
   'My6Sense': [
     'papi.mynativeplatform.com/pub2/web/v1.15.0/hbwidget.json'
   ],
   'Mytarget': [
     'ad.mail.ru/hbid_prebid/'
+  ],
+  'NAF Digital': [
+    'nafdigitalbidder.com/hb'
   ],
   'NanoInteractive': [
     'tmp.audiencemanager.de/hb'
@@ -374,11 +492,20 @@ var bidderPatterns = {
   'Nasmedia Admixer': [
     'adn.admixer.co.kr/prebid'
   ],
+  'NewborntownWeb': [
+    'us-west.solortb.com/adx/api/rtb'
+  ],
   'NextMillenium': [
     'brainlyads.com/hb/s2s'
   ],
+  'NextRoll': [
+    'd.adroll.com/bid/prebid'
+  ],
   'NginAd': [
     'server.nginad.com/bid/rtb?'
+  ],
+  'Nobid': [
+    'ads.servenobid.com/adreq'
   ],
   'Oneplanetonly': [
     'show.oneplanetonly.com/prebid'
@@ -410,8 +537,14 @@ var bidderPatterns = {
   'Otm': [
     'ssp.otm-r.com/adjson'
   ],
+  'Outcon': [
+    'api.outcondigital.com/ad/get'
+  ],
   'Ozone': [
     'elb.the-ozone-project.com/openrtb2/auction'
+  ],
+  'Padsquad': [
+    'x.padsquad.com/auction'
   ],
   'Papyrus': [
     'prebid.papyrus.global/'
@@ -437,8 +570,16 @@ var bidderPatterns = {
   'Prebid Server': [
     'prebid.adnxs.com/pbs/v1/auction'
   ],
+  'Project Limelight': [
+    'ads.project-limelight.com/hb'
+  ],
   'Proximic': [
     '.zqtk.net/'
+  ],
+  'Proxistore': [
+    'abs.proxistore.com/fr/v3/rtb/prebid',
+    'abs.proxistore.com/nl/v3/rtb/prebid',
+    'abs.proxistore.com/es/v3/rtb/prebid'
   ],
   'Pubgears': [
     'b.pubgears.com/nucleus/request'
@@ -460,6 +601,9 @@ var bidderPatterns = {
   'Quantum': [
     's.sspqns.com/hb'
   ],
+  'Rads': [
+    'rads.recognified.net/md.request.php'
+  ],
   'Rdn': [
     's-bid.rmp.rakuten.co.jp/h'
   ],
@@ -471,6 +615,15 @@ var bidderPatterns = {
   ],
   'ReklamStore': [
     'ads.rekmob.com/m/prebid'
+  ],
+  'Reload': [
+    '.reload.net/bid'
+  ],
+  'ResultsMedia': [
+    'bid306.rtbsrv.com/bidder'
+  ],
+  'Revcontent': [
+    'trends.revcontent.com/rtb'
   ],
   'RhythmOne': [
     'tag.1rx.io/rmp/*/*/mvo'
@@ -486,6 +639,9 @@ var bidderPatterns = {
   ],
   'RTB House': [
     '.creativecdn.com/bidder/prebid/bids'
+  ],
+  'RTB Solutions': [
+    'dsp-eu-lb.rtbsolutions.pro/bid/hb'
   ],
   'Rtbdemand': [
     'bidding.rtbdemand.com/hb'
@@ -503,6 +659,15 @@ var bidderPatterns = {
   'SARA': [
     'ad.sara.media/hb'
   ],
+  'SeedingAlliance': [
+    'b.nativendo.de/cds/rtb/bid'
+  ],
+  'Seedtag': [
+    's.seedtag.com/c/hb/bid'
+  ],
+  'Segmento': [
+    'prebid-bidder.rutarget.ru/bid'
+  ],
   'Sekindo': [
     'hb.sekindo.com/live/liveView.php?'
   ],
@@ -515,6 +680,12 @@ var bidderPatterns = {
   'Sharethrough': [
     'btlr.sharethrough.com/header-bid/v1?'
   ],
+  'ShowHeroes': [
+    'bs1.showheroes.com/api/v1/bid'
+  ],
+  'SlimCut': [
+    'sb.freeskreen.com/pbr'
+  ],
   'Smart': [
     '.smartadserver.com/prebid'
   ],
@@ -526,6 +697,9 @@ var bidderPatterns = {
   ],
   'SmileWanted': [
     'prebid.smilewanted.com/'
+  ],
+  'SMMS': [
+    'bidder.mediams.mb.softbank.jp/api/v1/prebid'
   ],
   'SomoAudience': [
     'publisher-east.mobileadtrading.com/rtb/bid?s='
@@ -549,6 +723,12 @@ var bidderPatterns = {
     'cdn.stickyadstv.com/mustang/mustang.min.js',
     'cdn.stickyadstv.com/prime-time/intext-roll.min.js',
     'cdn.stickyadstv.com/prime-time/screen-roll.min.js'
+  ],
+  'STV': [
+    'ads.smartstream.tv/r/'
+  ],
+  'Sublime': [
+    'pbjs.sskzlabs.com/bid'
   ],
   'Supply2': [
     'pool.supply2.com/hb'
@@ -580,11 +760,20 @@ var bidderPatterns = {
   'TIM Media': [
     'hb.timmedia-hb.com/api/v2/services/prebid/'
   ],
+  'TopRTB': [
+    'ssp.toprtb.com/ssp/rest/ReqAd'
+  ],
+  'TPMN': [
+    'ssp.astraone.io/auction/prebid'
+  ],
   'Trafficroots': [
     'service.trafficroots.com/prebid'
   ],
   'Tremor': [
     '.ads.tremorhub.com/ad/tag'
+  ],
+  'TribeOS': [
+    'bidder-api-us-east.tribeos.io/prebid/'
   ],
   'Trion': [
     'in-appadvertising.com/api/bidRequest?'
@@ -594,6 +783,9 @@ var bidderPatterns = {
   ],
   'Trustx': [
     'sofia.trustx.org/hb'
+  ],
+  'Turktelecom': [
+    'ssp.programattik.com/hb'
   ],
   'Twenga': [
     'rtb.t.c4tw.net/Bid?'
@@ -607,11 +799,17 @@ var bidderPatterns = {
   'Undertone': [
     'hb.undertone.com/hb'
   ],
+  'Unicorn': [
+    'ds.uncn.jp/pb/0/bid.json'
+  ],
   'Unruly': [
     'targeting.unrulymedia.com/prebid'
   ],
   'UOL': [
     'prebid.adilligo.com/v1/prebid.json'
+  ],
+  'ValueImpression': [
+    'adapter.valueimpression.com/bid'
   ],
   'VDO.AI': [
     'prebid.vdo.ai/auction'
@@ -628,11 +826,23 @@ var bidderPatterns = {
   'Vidazoo': [
     'prebid.cliipa.com/'
   ],
+  'Video Now': [
+    'bidder.videonow.ru/prebid'
+  ],
+  'Video Reach': [
+    'a.videoreach.com/hb/'
+  ],
+  'ViewDeos DX': [
+    'ghb.sync.viewdeos.com/auction'
+  ],
   'VIS.X': [
     't.visx.net/hb'
   ],
   'VMG': [
     'predict.vmg.nyc/'
+  ],
+  'Vrtcal': [
+    'rtb.vrtcal.com/bidder_prebid.vap'
   ],
   'Vuble': [
     'player.mediabong.net/prebid/request'
@@ -642,6 +852,9 @@ var bidderPatterns = {
   ],
   'Widespace': [
     'engine.widespace.com/'
+  ],
+  'Windtalker': [
+    'windtalkerdisplay.hb.adp3.net/'
   ],
   'Xendiz': [
     'prebid.xendiz.com/'
@@ -654,6 +867,9 @@ var bidderPatterns = {
   ],
   'Yieldlab': [
     'ad.yieldlab.net/yp/'
+  ],
+  'Yieldlift': [
+    'x.yieldlift.com/auction'
   ],
   'Yieldmo': [
     'bid.yieldmo.com/exchange/prebid'
