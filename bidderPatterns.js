@@ -42,7 +42,7 @@ var bidderPatterns = {
     'api-test.scaleout.jp/adsv/v1'
   ],
   'AdGlare': [
-    '.engine.adglare.net'
+    '.engine.adglare.net/'
   ],
   'Adhese': [
     '.adhese.com/json'
