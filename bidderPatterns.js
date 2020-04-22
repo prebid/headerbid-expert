@@ -872,7 +872,7 @@ var bidderPatterns = {
     'x.yieldlift.com/auction'
   ],
   'Yieldmo': [
-    'bid.yieldmo.com/exchange/prebid'
+    'ads.yieldmo.com/exchange/prebid'
   ],
   'Yieldnexus': [
     'ssp.ynxs.io/r/'
