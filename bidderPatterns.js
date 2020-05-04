@@ -450,6 +450,9 @@ var bidderPatterns = {
   'Logicad': [
     'pb.ladsp.com/adrequest/prebid'
   ],
+  'LuponMedia': [
+    'rtb.adxpremium.services/openrtb2/auction'
+  ],
   'Madvertise': [
     'mobile.mng-ads.com/'
   ],
