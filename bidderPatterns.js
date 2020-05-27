@@ -18,6 +18,9 @@ var bidderPatterns = {
   'Ad4Game': [
     '.ad4game.com/v1/bid'
   ],
+  'Adagio': [
+    'mp.4dex.io/prebid'
+  ],
   'Adblade': [
     'rtb.adblade.com/prebidjs/bid'
   ],
