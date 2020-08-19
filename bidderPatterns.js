@@ -355,6 +355,9 @@ var bidderPatterns = {
   'Gjirafa': [
     'gjc.gjirafa.com/Home/GetBid'
   ],
+  'GMOSSP': [
+    'sp.gmossp-sp.jp/hb/prebid/query.ad'
+  ],
   'GridNM': [
     'grid.bidswitch.net/hbnm'
   ],
