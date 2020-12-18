@@ -90,7 +90,7 @@ var bidderPatterns = {
     'engine.4dsply.com/banner.engine?id='
   ],
   'Adtelligent': [
-    'hb.adtelligent.com/auction/'
+    '.adtelligent.com/*auction/'
   ],
   'AdUpTech': [
     'rtb.d.adup-tech.com/prebid'
