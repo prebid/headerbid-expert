@@ -240,7 +240,8 @@ var bidderPatterns = {
   ],
   'Conversant': [
     'web.hb.ad.cpe.dotomi.com/s2s/header',
-    'media.msg.dotomi.com/s2s/header'
+    'media.msg.dotomi.com/s2s/header',
+    'web.hb.ad.cpe.dotomi.com/cvx/client/hb/ortb/25'
   ],
   'Cosmos': [
     'bid.cosmoshq.com/openrtb2/bids'
