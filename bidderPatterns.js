@@ -387,7 +387,8 @@ var bidderPatterns = {
   ],
   'Index': [
     '.casalemedia.com/cygnus',
-    '.casalemedia.com/headertag'
+    '.casalemedia.com/headertag',
+    '.casalemedia.com/openrtb/pbjs'
   ],
   'Inneractive': [
     'ad-tag.inner-active.mobi/simpleM2M/requestJsonAd'
