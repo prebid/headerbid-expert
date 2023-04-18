@@ -517,7 +517,8 @@ var bidderPatterns = {
     '.servedbyopenx.com/w/1.0/acj',
     '.openx.net/w/1.0/acj',
     '.openx.net/w/1.0/arj',
-    '.openx.net/v/1.0/avjp'
+    '.openx.net/v/1.0/avjp',
+    'rtb.openx.net/openrtbb/prebidjs'
   ],
   'Open8': [
     'as.vt.open8.com/v1/control/prebid'
